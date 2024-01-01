@@ -34,8 +34,8 @@ const ExperienceCard = (props) => {
         </div>
         <div className="w-full md:w-[calc(100%-90px)]">
           <h3 className="text-base md:text-lg font-semibold">{designation}</h3>
-          <div className="mb-2 flex justify-between items-baseline">
-            <h4 className="font-medium text-sm underline">
+          <div className="mb-2 flex justify-between flex-wrap items-baseline">
+            <h4 className="font-medium text-sm  underline">
               <Link target="_blank" href={companyLink}>{companyName}</Link>
             </h4>
             <h4 className="text-xs">{location}</h4>
