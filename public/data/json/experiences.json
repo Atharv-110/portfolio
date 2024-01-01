@@ -1,0 +1,83 @@
+{
+    "experiences": [
+        {
+            "id": 1,
+            "companyName": "Bookzy Edufy Pvt. Ltd.",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/bookzy_logo.png?updatedAt=1704136662377",
+            "designation": "Front End Developer Intern",
+            "location": "Indore",
+            "startDate": "Jun 2023",
+            "endDate": "Oct 2023",
+            "companyLink": "https://bookzy.in/",
+            "description": "Built dashboard application for their new venture called Pustakaalay, which will focus on transforming the physical libraries into digital ones i.e. bringing digitization to the libraries. Also made some cool IQ based games for students enrolled via school on Pustakaalay.",
+            "skills": [
+                "https://skillicons.dev/icons?i=nextjs",
+                "https://skillicons.dev/icons?i=react",
+                "https://skillicons.dev/icons?i=html",
+                "https://skillicons.dev/icons?i=css",
+                "https://skillicons.dev/icons?i=js",
+                "https://skillicons.dev/icons?i=tailwind",
+                "https://skillicons.dev/icons?i=mui",
+                "https://skillicons.dev/icons?i=figma"
+            ],
+            "favorite": true
+        },
+        {
+            "id": 2,
+            "companyName": "Webalar Website Developers & Services (OPC) Pvt. Ltd.",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/webalar_logo.png?updatedAt=1704136662375",
+            "designation": "Junior Developer Intern",
+            "location": "Remote",
+            "startDate": "Jun 2023",
+            "endDate": "Jul 2023",
+            "companyLink": "https://webalar.in/",
+            "description": "Worked on one of their client-based projects: Mind Sphere Psychology, which is an organization for various types of counselling. Also worked on SEO optimization for the client projects and audited the Webalar's website for better future performance.",
+            "skills": [
+                "https://skillicons.dev/icons?i=nextjs",
+                "https://skillicons.dev/icons?i=react",
+                "https://skillicons.dev/icons?i=html",
+                "https://skillicons.dev/icons?i=css",
+                "https://skillicons.dev/icons?i=js",
+                "https://skillicons.dev/icons?i=bootstrap"
+            ],
+            "favorite": true
+        },
+        {
+            "id": 3,
+            "companyName": "Bizwit Research & Consulting LLP",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/bizwit_logo.png?updatedAt=1704136662384",
+            "designation": "Web Developer Intern",
+            "location": "Indore",
+            "startDate": "Jan 2023",
+            "endDate": "Feb 2023",
+            "companyLink": "https://www.bizwitresearch.com/",
+            "description": "Worked on their venture's website, I Am Safe at Work and also got the opportunity to learn WordPress and various themes of it. Major technical stack was HTML, CSS & JS with CSS frameworks like Bootstrap.",
+            "skills": [
+                "https://skillicons.dev/icons?i=html",
+                "https://skillicons.dev/icons?i=css",
+                "https://skillicons.dev/icons?i=js",
+                "https://skillicons.dev/icons?i=bootstrap",
+                "https://skillicons.dev/icons?i=wordpress"
+            ],
+            "favorite": false
+        },
+        {
+            "id": 4,
+            "companyName": "Webalar Website Developers & Services (OPC) Pvt. Ltd.",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/webalar_logo.png?updatedAt=1704136662375",
+            "designation": "Web Developer Intern",
+            "location": "Remote",
+            "startDate": "Jul 2022",
+            "endDate": "Oct 2022",
+            "companyLink": "https://webalar.in/",
+            "description": "During my internship, I undertook a client-centric project, the 'Insane Web Studio Website.' My role encompassed crafting an intuitive user interface, enhancing functionality, and ensuring responsive design. This experience enriched my proficiency in front-end technologies, enabling me to contribute effectively to dynamic web solutions.",
+            "skills": [
+                "https://skillicons.dev/icons?i=html",
+                "https://skillicons.dev/icons?i=css",
+                "https://skillicons.dev/icons?i=js",
+                "https://skillicons.dev/icons?i=bootstrap"
+            ],
+            "favorite": true
+        }
+    ]
+}

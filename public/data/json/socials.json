@@ -1,0 +1,28 @@
+{
+    "social": [
+        {
+            "id": 1,
+            "name": "github",
+            "username": "atharv-110",
+            "link": "https://github.com/Atharv-110"
+        },
+        {
+            "id": 2,
+            "name": "mail",
+            "username": "atharvavani110@gmail.com",
+            "link": "mailto:atharvavani110@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "linkedin",
+            "username": "Atharv Vani",
+            "link": "https://www.linkedin.com/in/atharv-vani110/"
+        },
+        {
+            "id": 4,
+            "name": "twitter",
+            "username": "@atharv_110",
+            "link": "https://twitter.com/atharv_110"
+        }
+    ]
+}

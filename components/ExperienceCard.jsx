@@ -1,0 +1,63 @@
+import Image from "next/image";
+import Link from "next/link";
+
+const ExperienceCard = (props) => {
+  const {
+    companyName,
+    companyLogo,
+    designation,
+    location,
+    startDate,
+    endDate,
+    companyLink,
+    description,
+    skills,
+  } = props.item;
+  return (
+    <div className="flex relative items-center experience-row">
+      <div className="w-[20px] h-[20px] absolute left-[-9px] rounded-full experience-circle"></div>
+      <div className="experience-card">
+        <div className="bg-theme-white border-2 absolute top-[-15px] rounded-lg right-8 px-3 py-1 experience-date">
+          <p className="text-xs md:text-sm">
+            {startDate} - {endDate}
+          </p>
+        </div>
+        <div className="w-full md:w-[90px]">
+          <Image
+            src={companyLogo}
+            width={100}
+            height={100}
+            alt="company logo"
+            className="w-[60px] md:w-[90px] bg-theme-white p-2 rounded-full"
+            unoptimized
+          />
+        </div>
+        <div className="w-full md:w-[calc(100%-90px)]">
+          <h3 className="text-base md:text-lg font-semibold">{designation}</h3>
+          <div className="mb-2 flex justify-between items-baseline">
+            <h4 className="font-medium text-sm underline">
+              <Link target="_blank" href={companyLink}>{companyName}</Link>
+            </h4>
+            <h4 className="text-xs">{location}</h4>
+          </div>
+          <p className="text-xs tracking-normal">{description}</p>
+          <div className="flex justify-start items-center gap-1 mt-2">
+            <p className="hidden md:block text-xs font-medium">hands on: </p>
+            {skills.map((item, idx) => (
+              <Image
+                key={idx}
+                src={item}
+                width={100}
+                height={100}
+                alt="skills"
+                className="w-[30px] md:w-[35px]"
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ExperienceCard;

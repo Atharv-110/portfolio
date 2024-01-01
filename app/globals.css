@@ -1,27 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Common Classes */
+* {
+  @apply font-ubuntu tracking-wide text-theme-black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.container {
+  @apply mt-24 md:mt-[9rem] mx-auto max-w-[850px] px-[4%];
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+.avatar {
+  @apply bg-theme-purple;
+}
+
+.navbar {
+  @apply h-[70px] z-10 w-full pt-2 fixed top-0 flex-between md:px-8 px-2 navbar_glass;
+}
+
+.navbar_glass {
+  @apply bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-[7px] bg-opacity-10;
+}
+
+.navbar_link {
+  @apply hover:scale-105 underline ease-in duration-200;
+}
+
+.dropdown_menu {
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[180px] flex flex-col gap-2 justify-end items-end;
+}
+
+.dropdown_link {
+  @apply text-sm text-theme-black font-medium;
+}
+
+.hero_social_icon {
+  @apply fill-theme-black hover:fill-gray-700 ease-in-out duration-200;
+}
+
+.project-card {
+  @apply bg-theme-blue;
+}
+.project-card:nth-child(3n) {
+  @apply bg-theme-purple;
+}
+.project-card:nth-child(4n) {
+  @apply bg-theme-yellow;
+}
+.project-card:nth-child(5n) {
+  @apply bg-theme-green;
+}
+
+.experience-row :is(.experience-circle, .experience-date) {
+  @apply bg-theme-blue border-theme-blue;
+}
+
+.experience-row .experience-card {
+  @apply relative w-full px-4 py-4 ml-4 md:ml-8 rounded-xl flex flex-col md:flex-row md:items-center items-start md:gap-4 gap-2 border-2 border-theme-blue hover:bg-theme-blue ease-in-out duration-200;
+}
+
+.experience-row:nth-child(3n) :is(.experience-circle, .experience-date) {
+  @apply bg-theme-purple border-theme-purple;
+}
+.experience-row:nth-child(3n) .experience-card {
+  @apply border-theme-purple hover:bg-theme-purple;
+}
+.experience-row:nth-child(4n) :is(.experience-circle, .experience-date) {
+  @apply bg-theme-yellow border-theme-yellow;
+}
+.experience-row:nth-child(4n) .experience-card {
+  @apply border-theme-yellow hover:bg-theme-yellow;
+}
+.experience-row:nth-child(5n) :is(.experience-circle, .experience-date) {
+  @apply bg-theme-green border-theme-green;
+}
+.experience-row:nth-child(5n) .experience-card {
+  @apply border-theme-green hover:bg-theme-green;
+}
+
+.experience-card:hover .experience-date {
+  @apply bg-theme-white ease-in-out duration-200;
+}
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  @apply w-0 md:w-[3px];
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-gray-300;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-600;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-theme-black;
 }

@@ -1,0 +1,95 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "favorite": true,
+            "name": "Promptify",
+            "banner": "https://ik.imagekit.io/pmlrcdwer/portfolio/promptify_thumbnail.png?updatedAt=1704041515105",
+            "icon": "https://ik.imagekit.io/pmlrcdwer/portfolio/promptify_logo.png?updatedAt=1704044549639",
+            "duration": "Jul 2023 - Dec 2023",
+            "description": "This is a wide platform through which user can create, share, & discover prompts to make their AI tool journey easy and robust.",
+            "features": [
+                "Easily login or create account using your Google account.",
+                "User can search prompts through the tags, user, email or even by typing some words of the prompt.",
+                "Anyone can view, copy and use all the prompts available on the feed.",
+                "Everyone can see what all prompts are created by a respective creator.",
+                "After login, users can create and share their amazing prompts.",
+                "Easy editing of the prompts after creation.",
+                "Users can use OpenAI's GPT-3.5 Turbo on the go via Playground feature",
+                "Promptify is fully responsive, accessible through all the devices."
+            ],
+            "techStack": "https://skillicons.dev/icons?i=nextjs,react,js,tailwind,css,mongodb,vercel",
+            "deployment": "https://promptifyy.vercel.app/",
+            "repository": "https://github.com/Atharv-110/Promptify"
+        },
+        {
+            "id": 2,
+            "favorite": true,
+            "name": "Nobel App",
+            "banner": "https://ik.imagekit.io/pmlrcdwer/portfolio/nobelApp_banner.png?updatedAt=1704052455923",
+            "icon": "https://ik.imagekit.io/pmlrcdwer/portfolio/nobelapp_icon.png?updatedAt=1704044996992",
+            "duration": "Nov 2023 - Dec 2023",
+            "description": "The 'Nobel App' retrieves data about all Nobel Prize winners together with year, category and laureates' names from the Nobel Prize API",
+            "features": [
+                "Load More Rows: This will not load all the data at once, only 10 rows at once will load and we can load more rows through Load More Rows Button",
+                "Fully Mobile Responsive.",
+                ">1 Button in Mobile View: This will showcase the people who have won Nobel Prize more than once.",
+                "Minimal UI for better User Experience. UI inspiration: https://flipr.ai/",
+                "Handled the missing values through logic, e.g.: There were many Laureates with only First name and no Surname. It was showing undefined on the app so handled it via ternary operators.",
+                "Implemented all the basic UI elements such as Navbar, Hero Section, Footer, Modal, etc."
+            ],
+            "techStack": "https://skillicons.dev/icons?i=react,js,css,tailwind,mui",
+            "deployment": "https://flipr-frontend-nobel-prize-app.vercel.app/",
+            "repository": "https://github.com/Atharv-110/flipr-frontend-nobel-prize-app"
+        },
+        {
+            "id": 3,
+            "favorite": true,
+            "name": "Summify",
+            "banner": "https://ik.imagekit.io/pmlrcdwer/portfolio/summify_banner.png?updatedAt=1704046102267",
+            "icon": "https://ik.imagekit.io/pmlrcdwer/portfolio/summify_icon.png?updatedAt=1704045858907",
+            "duration": "Jun 2023",
+            "description": "Summify is a cutting-edge web application created to make it easier to quickly absorb lengthy articles and gain insightful knowledge.",
+            "features": [
+                "Users can summarize articles through it's URL",
+                "All the summarized articles get saved in the browser's memory"
+            ],
+            "techStack": "https://skillicons.dev/icons?i=react,js,redux,css,tailwind,firebase",
+            "deployment": "https://summify-url.web.app/",
+            "repository": "https://github.com/Atharv-110/Summify"
+        },
+        {
+            "id": 4,
+            "favorite": false,
+            "name": "Litopia Website",
+            "banner": "https://ik.imagekit.io/pmlrcdwer/portfolio/litopia_website_banner.png?updatedAt=1704084488798",
+            "icon": "https://ik.imagekit.io/pmlrcdwer/portfolio/litopia_icon.png?updatedAt=1704057542754",
+            "duration": "Dec 2022 - Feb 2023",
+            "description": "This was a dynamic live project aimed at generating leads for the prestigious literary fest of Medi-Caps University, held in Feb 2023.",
+            "features": [
+                "Feature 1",
+                "Feature 2",
+                "Feature 3"
+            ],
+            "techStack": "https://skillicons.dev/icons?i=react,js,html,css,tailwind",
+            "deployment": "https://litopia.vercel.app/",
+            "repository": "https://github.com/Atharv-110/Litopia-Website"
+        },
+        {
+            "id": 5,
+            "favorite": false,
+            "name": "File Vault",
+            "icon": "https://ik.imagekit.io/pmlrcdwer/portfolio/filevault_icon.png?updatedAt=1704054743566",
+            "duration": "Jul 2023 - Aug 2023",
+            "description": "Java command-line project, seamlessly hide and unhide files via MySQL, while fortifying access through OTP email authentication.",
+            "features": [
+                "Feature 1",
+                "Feature 2",
+                "Feature 3"
+            ],
+            "techStack": "https://skillicons.dev/icons?i=java,mysql",
+            "repository": "https://github.com/Atharv-110/File-Vault"
+        }
+        
+    ]
+}
