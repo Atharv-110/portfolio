@@ -3,7 +3,7 @@ import { Heading, SubHeading, ExperienceCard } from "./Export";
 const ExperienceSection = (props) => {
   const data = props.data;
   return (
-    <section>
+    <section className="mb-4">
       <Heading text="My Experiences" />
       <SubHeading text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi unde labore, laboriosam omnis reiciendis sequi." />
 

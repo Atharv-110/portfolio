@@ -1,7 +1,7 @@
 import Image from "next/image";
 import skillsData from "@/public/data/json/skills.json";
 
-import { Tooltip, Button } from "@nextui-org/react";
+import { Tooltip } from "@nextui-org/react";
 
 const SkillSet = () => {
   const data = skillsData.skills;
@@ -16,7 +16,7 @@ const SkillSet = () => {
               width={40}
               height={40}
               alt="icons"
-              className="w-[25px] md:w-[40px]"
+              className="w-[30px] md:w-[45px]"
             />
           </Tooltip>
         </div>

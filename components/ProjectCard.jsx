@@ -34,7 +34,7 @@ const ProjectCard = (props) => {
       />
       <div
         onClick={onOpen}
-        className="w-full flex justify-between items-center px-2 py-4 gap-x-2 rounded-xl cursor-pointer hover:scale-105 ease-in-out duration-300 mb-4 project-card"
+        className="w-full flex justify-between mb-4 items-center px-2 py-4 gap-x-2 rounded-xl cursor-pointer hover:scale-105 ease-in-out duration-300 project-card"
       >
         <div className="w-[50px] md:w-[70px] bg-theme-white p-2 flex justify-center items-center rounded-full">
           <Image

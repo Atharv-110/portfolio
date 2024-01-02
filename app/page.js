@@ -1,4 +1,4 @@
-import { Hero, Divider, ProjectSection, ConnectSection, ExperienceSection } from "@/components/Export";
+import { Hero, Divider, ProjectSection, ConnectSection, ExperienceSection, SectionBtn } from "@/components/Export";
 import projectData from "@/public/data/json/projects";
 import experienceData from "@/public/data/json/experiences";
 
@@ -10,8 +10,10 @@ export default function Home() {
       <Hero />
       <Divider />
       <ExperienceSection data={experiences} />
+      <SectionBtn text="show more experiences" link="/experience"/>
       <Divider />
       <ProjectSection data={projects} />
+      <SectionBtn text="show more projects" link="/projects"/>
       <Divider />
       <ConnectSection />
       <Divider />

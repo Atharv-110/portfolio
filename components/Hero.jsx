@@ -5,24 +5,22 @@ import { useSelector } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
 
-import { SkillSet } from "./Export";
+import { SkillSet, SectionBtn } from "./Export";
 
 import { FaGithub, FaLinkedin, FaTwitter } from "./IconsExport";
-
-import { IconContext } from "react-icons";
 
 const Hero = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
   return (
     <section className="flex flex-col gap-4">
-      <Image
-        src={state ? Avatar : AvatarVector}
-        width={200}
-        height={200}
-        alt="avatar"
-        className="w-[140px] avatar rounded-3xl"
-        unoptimized
-      />
+        <Image
+          src={state ? Avatar : AvatarVector}
+          width={200}
+          height={200}
+          alt="avatar"
+          className="w-[150px] avatar rounded-3xl"
+          unoptimized
+        />
       <div className="flex flex-wrap items-end text-xl gap-4">
         <h1 className="text-3xl font-bold leading-none">Atharv Vani</h1>
         <div className="flex items-center gap-2">
@@ -47,6 +45,10 @@ const Hero = () => {
         voluptatem sunt earum mollitia impedit consequuntur assumenda aspernatur
         modi ducimus!
       </p>
+      <div className="flex items-baseline justify-start gap-2">
+        <p className="font-medium">hire me.</p>
+        <SectionBtn link="/resume" text="Resume" />
+      </div>
       <SkillSet />
     </section>
   );

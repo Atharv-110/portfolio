@@ -1,4 +1,4 @@
-import { Heading, ProjectSection } from "@/components/Export"
+import { ProjectSection } from "@/components/Export"
 import projectData from "@/public/data/json/projects.json"
 
 const Projects = () => {
