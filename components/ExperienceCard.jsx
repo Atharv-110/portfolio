@@ -22,38 +22,65 @@ const ExperienceCard = (props) => {
             {startDate} - {endDate}
           </p>
         </div>
-        <div className="w-full md:w-[90px]">
+        <div
+          className={
+            companyLink
+              ? "w-full flex items-center md:justify-center md:w-[90px]"
+              : "w-full flex items-center md:justify-center md:w-[60px]"
+          }
+        >
           <Image
             src={companyLogo}
             width={100}
             height={100}
             alt="company logo"
-            className="w-[60px] md:w-[90px] bg-theme-white p-2 rounded-full"
+            className={
+              companyLink
+                ? "w-[60px] md:w-[90px] bg-theme-white p-1 rounded-full"
+                : "w-[60px] md:w-[60px] bg-theme-white p-1 rounded-full"
+            }
             unoptimized
           />
         </div>
-        <div className="w-full md:w-[calc(100%-90px)]">
+        <div
+          className={
+            companyLink
+              ? "w-full md:w-[calc(100%-80px)]"
+              : "w-full md:w-[calc(100%-60px)]"
+          }
+        >
           <h3 className="text-base md:text-lg font-semibold">{designation}</h3>
           <div className="mb-2 flex justify-between flex-wrap items-baseline">
-            <h4 className="font-medium text-sm  underline">
-              <Link target="_blank" href={companyLink}>{companyName}</Link>
-            </h4>
+            {companyLink ? (
+              <h4 className="font-medium text-sm underline">
+                <Link target="_blank" href={companyLink}>
+                  {companyName}
+                </Link>
+              </h4>
+            ) : (
+              <h4 className="font-medium text-sm">{companyName}</h4>
+            )}
+
             <h4 className="text-xs">{location}</h4>
           </div>
-          <p className="text-xs tracking-normal">{description}</p>
-          <div className="flex justify-start items-center gap-1 mt-2">
-            <p className="hidden md:block text-xs font-medium">hands on: </p>
-            {skills.map((item, idx) => (
-              <Image
-                key={idx}
-                src={item}
-                width={100}
-                height={100}
-                alt="skills"
-                className="w-[30px] md:w-[35px]"
-              />
-            ))}
-          </div>
+          {description ? (
+            <p className="text-xs tracking-normal">{description}</p>
+          ) : null}
+          {skills ? (
+            <div className="flex justify-start items-center gap-1 mt-2">
+              <p className="hidden md:block text-xs font-medium">hands on: </p>
+              {skills.map((item, idx) => (
+                <Image
+                  key={idx}
+                  src={item}
+                  width={100}
+                  height={100}
+                  alt="skills"
+                  className="w-[30px] md:w-[35px]"
+                />
+              ))}
+            </div>
+          ) : null}
         </div>
       </div>
     </div>

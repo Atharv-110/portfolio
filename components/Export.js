@@ -11,6 +11,7 @@ import ConnectSection from "./ConnectSection";
 import SocialCard from "./SocialCard";
 import ExperienceSection from "./ExperienceSection";
 import ExperienceCard from "./ExperienceCard";
+import CommunitiesSection from "./CommunitiesSection";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   SocialCard,
   ExperienceSection,
   ExperienceCard,
+  CommunitiesSection,
 };

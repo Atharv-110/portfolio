@@ -1,0 +1,49 @@
+{
+    "communities": [
+        {
+            "id": 1,
+            "companyName": "Google Developer Groups",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/gdg_logo.png?updatedAt=1704187867073",
+            "designation": "Core Team Member",
+            "location": "Indore",
+            "startDate": "Nov 2022",
+            "endDate": "Present"
+        },
+        {
+            "id": 2,
+            "companyName": "Google Developer Student Clubs",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/gdg_logo.png?updatedAt=1704187867073",
+            "designation": "Technical Head",
+            "location": "Medi-Caps University, Indore",
+            "startDate": "Sep 2022",
+            "endDate": "Sep 2023"
+        },
+        {
+            "id": 3,
+            "companyName": "Datacode.in",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/bizwit_logo.png?updatedAt=1704136662384",
+            "designation": "Hackathon Organizer",
+            "location": "Indore",
+            "startDate": "Jan 2023",
+            "endDate": "Feb 2023"
+        },
+        {
+            "id": 4,
+            "companyName": "The Sahityik - Literary Club",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/sahityik_logo.png?updatedAt=1704188526869",
+            "designation": "Outreach Head",
+            "location": "Medi-Caps University, Indore",
+            "startDate": "Jun 2022",
+            "endDate": "Jun 2023"
+        },
+        {
+            "id": 5,
+            "companyName": "Codechef Medi-Caps Chapter",
+            "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/codechef_logo(1).png?updatedAt=1704189017954",
+            "designation": "Competitive Programming Executive",
+            "location": "Medi-Caps University, Indore",
+            "startDate": "date",
+            "endDate": "here"
+        }
+    ]
+}
