@@ -14,6 +14,7 @@ import ExperienceCard from "./ExperienceCard";
 import CommunitiesSection from "./CommunitiesSection";
 import SectionBtn from "./SectionBtn";
 import ResumeSection from "./ResumeSection";
+import ContactSection from "./ContactSection";
 
 export {
   Navbar,
@@ -32,4 +33,5 @@ export {
   CommunitiesSection,
   SectionBtn,
   ResumeSection,
+  ContactSection,
 };
