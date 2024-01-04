@@ -25,7 +25,6 @@ const ResumeSection = (props) => {
         modules={[Pagination]}
         spaceBetween={50}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
       >
         {data.map((item) => (
