@@ -22,11 +22,11 @@
 }
 
 .navbar {
-  @apply h-[70px] z-10 w-full fixed top-0 flex-between md:px-8 px-2 navbar_glass;
+  @apply h-[70px] z-20 w-full fixed top-0 flex-between md:px-8 px-2 navbar_glass;
 }
 
 .navbar_glass {
-  @apply bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-[5px] bg-opacity-10;
+  @apply bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-[4px] bg-opacity-10;
 }
 
 .navbar_link {
