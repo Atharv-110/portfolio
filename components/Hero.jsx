@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+
 import Avatar from "@/public/data/images/avatar.jpg";
 import AvatarVector from "@/public/data/images/avatar_vector.png";
 import { useSelector } from "react-redux";
@@ -16,13 +16,6 @@ import { FaGithub, FaLinkedin, FaTwitter } from "./IconsExport";
 
 const Hero = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
-  const [isOpen, setIsOpen] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsOpen(false);
-    }, 1000);
-  }, []);
 
   return (
     <section className="flex flex-col gap-4">
@@ -34,8 +27,7 @@ const Hero = () => {
           <div>
             <h1 className="font-medium">Magic🔮</h1>
             <p className="text-xs">
-              Click on <span className="font-medium">Navbar</span>{" "}
-              Image/Avatar
+              Click on <span className="font-medium">Navbar</span> Image/Avatar
             </p>
           </div>
         }
@@ -48,7 +40,7 @@ const Hero = () => {
             src={state ? Avatar : AvatarVector}
             width={200}
             height={200}
-            alt="avatar"
+            alt="avatar image"
             className="w-[150px] avatar rounded-3xl"
             unoptimized
           />
@@ -57,20 +49,19 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
-                duration: 0.4,
-                delay: 0.2,
+                duration: 0.2,
+                delay: 0.1,
                 ease: [0.25, 0.5, 0.75, 1],
               }}
             >
               <p className="py-2 px-4 flex items-center justify-start tracking-normal border bg-white text-sm font-medium rounded-lg shadow-md">
-                Redux&nbsp;
+                Redux Magic&nbsp;
                 <Image
                   src="https://skillicons.dev/icons?i=redux&theme=dark"
                   width={20}
                   height={20}
                   alt="redux logo"
                 />
-                &nbsp;Magic🔮
               </p>
             </motion.div>
           ) : (
@@ -103,7 +94,7 @@ const Hero = () => {
         modi ducimus!
       </p>
       <div className="flex items-baseline justify-start gap-2">
-        <p className="font-medium">hire me.</p>
+        <p className="font-medium">Hire me.</p>
         <SectionBtn link="/resume" text="Resume" />
       </div>
       <SkillSet />

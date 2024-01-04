@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "ik.imagekit.io",
       },
+      {
+        protocol: "https",
+        hostname: "assets.holopin.io",
+      },
     ],
     dangerouslyAllowSVG: true,
   },

@@ -1,0 +1,75 @@
+{
+    "achievement": [
+        {
+            "id": 1,
+            "title": "Hacktober Fest Participant 2022",
+            "type": "badge",
+            "description": "",
+            "image": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbGFqeHF4eTUwNDMzMDhqc3k3bXp1NmlwIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0="
+        },
+        {
+            "id": 2,
+            "title": "Hacktoberfest 2022: Level 1",
+            "description": "Contributors that submitted 1 accepted PR/MR for Hacktoberfest 2022 are rewarded with this badge.",
+            "type": "badge",
+            "image": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDhkNmZycXowMTgxMDltaGFleGpmczRwIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0="
+        },
+        {
+            "id": 3,
+            "title": "Hacktoberfest 2022: Level 2",
+            "description": "Contributors that submitted 2 accepted PR/MRs for Hacktoberfest 2022 are rewarded with this badge.",
+            "type": "badge",
+            "image": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDhkODlvaTAwMDE3MDlpZjdsdWxhNHV5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0="
+        },
+        {
+            "id": 4,
+            "title": "Hacktoberfest 2022: Level 3",
+            "description": "Contributors that submitted 3 accepted PR/MRs for Hacktoberfest 2022 are rewarded with this badge.",
+            "type": "badge",
+            "image": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDhkOHRrZnAwMDMyMDlqbmtxZTF3dzVhIiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0="
+        },
+        {
+            "id": 5,
+            "title": "Hacktoberfest 2022: Level 4",
+            "description": "Contributors that submitted 4 accepted PR/MRs for Hacktoberfest 2022 are rewarded with this badge.",
+            "type": "badge",
+            "image": "https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDhkOHVrb3MwMDk0MDlqbnVuaGRhcDd3IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0="
+        },
+        {
+            "id": 6,
+            "title": "Postman API Fundamentals Student Expert",
+            "description": "",
+            "type": "badge",
+            "image": "https://ik.imagekit.io/pmlrcdwer/portfolio/postman_badge.png?updatedAt=1704353100614"
+        },
+        {
+            "id": 7,
+            "title": "GSSOC 2023 Mentor",
+            "description": "",
+            "type": "badge",
+            "image": "https://ik.imagekit.io/pmlrcdwer/portfolio/gssoc_2023_mentor_badge.png?updatedAt=1704353282972"
+        },
+        {
+            "id": 8,
+            "title": "Technical Head at MU-GDSC",
+            "description": "",
+            "type": "badge",
+            "image": "https://ik.imagekit.io/pmlrcdwer/portfolio/gdsc_technical_head_badge.png?updatedAt=1704353283023"
+        },
+        {
+            "id": 9,
+            "title": "Organizer at Devfest Indore 2023",
+            "description": "",
+            "type": "badge",
+            "image": "https://ik.imagekit.io/pmlrcdwer/portfolio/gdg_devfest_2023_badge.png?updatedAt=1704353283064",
+            "rounded": true
+        },
+        {
+            "id": 10,
+            "title": "Organizer at GCCD Indore 2023",
+            "description": "",
+            "type": "badge",
+            "image": "https://ik.imagekit.io/pmlrcdwer/portfolio/gdg_gccd_2023_badge.png?updatedAt=1704354116486"
+        }
+    ]
+}

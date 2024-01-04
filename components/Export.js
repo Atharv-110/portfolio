@@ -15,6 +15,8 @@ import CommunitiesSection from "./CommunitiesSection";
 import SectionBtn from "./SectionBtn";
 import ResumeSection from "./ResumeSection";
 import ContactSection from "./ContactSection";
+import BadgeSection from "./BadgeSection";
+import BadgeCard from "./BadgeCard";
 
 export {
   Navbar,
@@ -34,4 +36,6 @@ export {
   SectionBtn,
   ResumeSection,
   ContactSection,
+  BadgeSection,
+  BadgeCard
 };
