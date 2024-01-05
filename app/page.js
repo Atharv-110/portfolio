@@ -22,14 +22,15 @@ export default function Home() {
       <Hero />
       <Divider />
       <ExperienceSection data={experiences} />
-      <SectionBtn text="show more experiences" link="/experience" />
+      <SectionBtn text="More Experiences" link="/experience" />
       <Divider />
       <ProjectSection data={projects} />
-      <SectionBtn text="show more projects" link="/projects" />
+      <SectionBtn text="More Projects" link="/projects" />
       <Divider />
       <BadgeSection data={achievements} />
       <Divider />
       <ConnectSection />
+      <SectionBtn text="Contact Me" link="/contact" />
       <Divider />
     </main>
   );

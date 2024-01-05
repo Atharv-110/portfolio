@@ -94,11 +94,6 @@
             "id": "19",
             "name": "MongoDB",
             "icon": "https://skillicons.dev/icons?i=mongodb&theme=dark"
-        },
-        {
-            "id": "20",
-            "name": "framer",
-            "icon": "https://skillicons.dev/icons?i=framer&theme=dark"
         }
     ]
 }
