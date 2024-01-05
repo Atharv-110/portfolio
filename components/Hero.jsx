@@ -42,6 +42,7 @@ const Hero = () => {
             height={200}
             alt="avatar image"
             className="w-[150px] avatar rounded-3xl"
+            priority
             unoptimized
           />
           {state ? (
@@ -89,8 +90,8 @@ const Hero = () => {
       </div>
       <p className="lg:w-[90%] text-sm md:text-base">
         Hey there! I am a fresher and aspiring software and frontend developer,
-        who relentlessly learns new tech daily. Thrives on connecting with
-        tech enthusiasts, tackling real-world problems, and propelling enduring
+        who relentlessly learns new tech daily. Thrives on connecting with tech
+        enthusiasts, tackling real-world problems, and propelling enduring
         success.
       </p>
       <div className="flex items-baseline justify-start gap-2">

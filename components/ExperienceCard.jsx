@@ -39,7 +39,6 @@ const ExperienceCard = (props) => {
                 ? "w-[60px] md:w-[90px] bg-theme-white p-1 rounded-full"
                 : "w-[60px] md:w-[60px] bg-theme-white p-1 rounded-full"
             }
-            unoptimized
           />
         </div>
         <div

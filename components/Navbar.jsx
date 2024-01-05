@@ -26,8 +26,8 @@ const Navbar = () => {
         <Image
           onClick={() => dispatch(changeAvatarState())}
           src={state ? Avatar : AvatarVector}
-          width={60}
-          height={60}
+          width={50}
+          height={50}
           alt="avatar"
           className="w-[50px] avatar rounded-xl cursor-pointer"
           unoptimized
