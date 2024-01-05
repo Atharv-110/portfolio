@@ -7,6 +7,8 @@ import { FaLongArrowAltRight } from "./IconsExport";
 
 import { Input, Textarea } from "@nextui-org/react";
 
+import toast from "react-hot-toast";
+
 const ContactSection = ({ serviceId, templateId, publicApiKey }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -21,16 +23,21 @@ const ContactSection = ({ serviceId, templateId, publicApiKey }) => {
       to_name: "Atharv Vani",
       message: message,
     };
+    const toastId = toast.loading("Loading...");
 
     emailjs
       .send(serviceId, templateId, templateParams, publicApiKey)
       .then((response) => {
+        toast.dismiss(toastId);
+        toast.success("Message Sent!");
         console.log("Sent Successful", response);
         setName("");
         setEmail("");
         setMessage("");
       })
       .catch((error) => {
+        toast.dismiss(toastId);
+        toast.error("Error Occurred!");
         console.error("Error : ", error);
       });
   };

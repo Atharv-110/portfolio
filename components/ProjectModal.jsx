@@ -83,21 +83,21 @@ const ProjectModal = ({
               </div>
             </ModalBody>
             <ModalFooter>
-              <div className="text-sm flex gap-4 underline">
+              <div className="text-sm flex gap-5 font-medium underline">
                 {deployment ? (
                   <Link
                     href={deployment}
                     className="navbar_link"
                     target="_blank"
                   >
-                    deployment
+                    Deployment
                   </Link>
                 ) : (
                   ""
                 )}
 
                 <Link href={repository} className="navbar_link" target="_blank">
-                  repository
+                  Code
                 </Link>
               </div>
             </ModalFooter>

@@ -29,7 +29,7 @@
 }
 
 .navbar_glass {
-  @apply bg-theme-white shadow-sm bg-opacity-10 bg-clip-padding backdrop-filter backdrop-blur-[5px] ;
+  @apply bg-theme-white shadow-sm bg-opacity-10 bg-clip-padding backdrop-filter backdrop-blur-[5px];
 }
 
 .navbar_link {
@@ -37,7 +37,7 @@
 }
 
 .dropdown_menu {
-  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-xl bg-white border min-w-[160px] flex flex-col gap-2 justify-end items-end;
+  @apply absolute right-0 top-full shadow-sm mt-4 w-full p-5 rounded-xl bg-theme-white border min-w-[160px] flex flex-col gap-2 justify-end items-end;
 }
 
 .dropdown_link {

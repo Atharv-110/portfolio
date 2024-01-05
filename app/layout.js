@@ -4,6 +4,7 @@ import { Navbar, Footer } from "@/components/Export";
 import ReduxProvider from "@/redux/ReduxProvider";
 
 import NextUI from "@/components/NextUI";
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Atharv Vani",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
     <ReduxProvider>
       <html lang="en" className="bg-theme-white">
         <body className="">
+          <Toaster position="top-center" />
           <NextUI>
             <Navbar />
             {children}
