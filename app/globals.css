@@ -10,7 +10,7 @@
 }
 
 .container {
-  @apply my-24 md:my-[9rem] mx-auto max-w-[850px] px-[4%];
+  @apply mt-24 mb-16 md:mt-[9rem] mx-auto max-w-[850px] px-[4%];
 }
 
 .flex-between {
@@ -22,11 +22,14 @@
 }
 
 .navbar {
-  @apply h-[70px] z-20 w-full fixed top-0 flex-between md:px-8 px-2 navbar_glass;
+  @apply h-[70px] z-20 w-full fixed top-0 flex-between md:px-16 px-2 navbar_glass;
+}
+.footer {
+  @apply w-full shadow-xl flex flex-col-reverse md:flex-row gap-3 items-center justify-between md:px-16 px-2 py-4 border-t;
 }
 
 .navbar_glass {
-  @apply bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-[4px] bg-opacity-10;
+  @apply bg-theme-white shadow-sm bg-opacity-10 bg-clip-padding backdrop-filter backdrop-blur-[5px] ;
 }
 
 .navbar_link {
@@ -90,7 +93,7 @@
 }
 
 .achievement-img {
-  @apply grayscale-[0.9] hover:grayscale-0 ease-in-out duration-300;
+  @apply grayscale-[0.75] hover:grayscale-0 ease-in-out duration-300;
 }
 
 /* Custom scrollbar */

@@ -13,7 +13,7 @@ const ResumeSection = (props) => {
   return (
     <section>
       <div className="flex items-center justify-between mb-4">
-        <Heading text="My Resume" />
+        <Heading text="Resume" />
         <SectionBtn
           link="/data/resume/resume_dec23.pdf"
           text="download"

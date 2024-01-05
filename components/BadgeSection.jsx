@@ -7,10 +7,11 @@ import "swiper/css/bundle";
 
 const BadgeSection = (props) => {
   const data = props.data;
+
   return (
     <section>
       <Heading text="Badges" />
-      <SubHeading text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum totam blanditiis quaerat sequi veritatis rerum!" />
+      <SubHeading text="Proudly displaying earned online badges, a testament to continuous learning and professional growth." />
       <Swiper
         spaceBetween={10}
         slidesPerView={1}

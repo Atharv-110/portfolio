@@ -17,7 +17,7 @@ import ResumeSection from "./ResumeSection";
 import ContactSection from "./ContactSection";
 import BadgeSection from "./BadgeSection";
 import BadgeCard from "./BadgeCard";
-import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -39,5 +39,5 @@ export {
   ContactSection,
   BadgeSection,
   BadgeCard,
-  ContactForm,
+  Footer,
 };

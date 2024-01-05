@@ -4,8 +4,8 @@ const ConnectSection = () => {
   const data = socialData.social;
   return (
     <section>
-      <Heading text="Let's Connect" />
-      <SubHeading text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi." />
+      <Heading text="Connect" />
+      <SubHeading text="Let's build networks! Connect with me on social platforms for collaborations, discussions, and updates." />
       <div className="flex flex-col gap-y-4 md:grid grid-rows-2 grid-cols-2 md:gap-x-6 md:gap-y-4">
         {data.map((item) => (
           <SocialCard

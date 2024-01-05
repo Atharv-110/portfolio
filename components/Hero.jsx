@@ -88,10 +88,10 @@ const Hero = () => {
         </div>
       </div>
       <p className="lg:w-[90%] text-sm md:text-base">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odio
-        aliquid nesciunt ex quos accusantium sequi ipsum debitis, fugiat libero
-        voluptatem sunt earum mollitia impedit consequuntur assumenda aspernatur
-        modi ducimus!
+        Hey there! I am a fresher and aspiring software and frontend developer,
+        who relentlessly learns new tech daily. Thrives on connecting with
+        tech enthusiasts, tackling real-world problems, and propelling enduring
+        success.
       </p>
       <div className="flex items-baseline justify-start gap-2">
         <p className="font-medium">Hire me.</p>

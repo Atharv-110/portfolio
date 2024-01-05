@@ -33,7 +33,7 @@ const SocialCard = ({ name, link, username }) => {
 
   const IconComponent = socialMediaName
     ? socialMediaIcons[socialMediaName]
-    : null;
+    : false;
 
   return (
     <Link target="_blank" className={className} href={link}>
@@ -44,7 +44,6 @@ const SocialCard = ({ name, link, username }) => {
         </div>
       )}
     </Link>
-    // </div>
   );
 };
 

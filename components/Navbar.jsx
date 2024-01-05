@@ -1,14 +1,12 @@
 "use client";
+import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
-
-import { useState } from "react";
+import { changeAvatarState } from "@/redux/AvatarChange";
 
 import Avatar from "@/public/data/images/avatar.jpg";
 import AvatarVector from "@/public/data/images/avatar_vector.png";
-import { changeAvatarState } from "@/redux/AvatarChange";
-
-import { useDispatch, useSelector } from "react-redux";
 
 const Navbar = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
