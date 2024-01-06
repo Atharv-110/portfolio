@@ -5,9 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { changeAvatarState } from "@/redux/AvatarChange";
 
-import Avatar from "@/public/data/images/avatar.jpg";
-import AvatarVector from "@/public/data/images/avatar_vector.png";
-
 const Navbar = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
   const dispatch = useDispatch();
