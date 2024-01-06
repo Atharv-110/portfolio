@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-// import Icon from "@/public/data/images/promptify_logo.png";
 import { ProjectModal } from "./Export";
 
 import { useDisclosure } from "@nextui-org/react";

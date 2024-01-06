@@ -1,7 +1,5 @@
 "use client";
 
-// import Avatar from "@/public/data/images/avatar.jpg";
-// import AvatarVector from "@/public/data/images/avatar_vector.png";
 import { useSelector } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
@@ -41,7 +39,9 @@ const Hero = () => {
             width={150}
             height={150}
             alt="avatar image"
-            className="w-[150px] avatar rounded-3xl"
+            className="avatar rounded-3xl"
+            unoptimized
+            priority
           />
           {state ? (
             <motion.div

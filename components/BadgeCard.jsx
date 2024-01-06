@@ -1,4 +1,3 @@
-// import { Card, CardFooter, Image, Button } from "@nextui-org/react";
 import Image from "next/image";
 
 const BadgeCard = (props) => {
