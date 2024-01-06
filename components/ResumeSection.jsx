@@ -22,7 +22,7 @@ const ResumeSection = (props) => {
           width={1000}
           height={1000}
           alt="resume image"
-          className="w-full mx-auto shadow-lg"
+          className="w-full mx-auto shadow-md rounded-md"
         />
       ))}
     </section>

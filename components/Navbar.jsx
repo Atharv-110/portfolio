@@ -30,8 +30,8 @@ const Navbar = () => {
           height={50}
           alt="avatar"
           className="w-[50px] avatar rounded-xl cursor-pointer"
-          unoptimized
-          priority
+          // unoptimized
+          // priority
         />
         <h1 className="font-semibold text-lg tracking-wide">atharv</h1>
       </div>

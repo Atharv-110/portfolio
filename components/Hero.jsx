@@ -1,7 +1,7 @@
 "use client";
 
-import Avatar from "@/public/data/images/avatar.jpg";
-import AvatarVector from "@/public/data/images/avatar_vector.png";
+// import Avatar from "@/public/data/images/avatar.jpg";
+// import AvatarVector from "@/public/data/images/avatar_vector.png";
 import { useSelector } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
@@ -37,13 +37,11 @@ const Hero = () => {
       >
         <div className="w-fit flex items-center gap-3">
           <Image
-            src={state ? Avatar : AvatarVector}
-            width={200}
-            height={200}
+            src={state ? "/data/images/avatar.jpg" : "/data/images/avatar_vector.png"}
+            width={150}
+            height={150}
             alt="avatar image"
             className="w-[150px] avatar rounded-3xl"
-            priority
-            unoptimized
           />
           {state ? (
             <motion.div
