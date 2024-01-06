@@ -25,7 +25,9 @@ const Navbar = () => {
       <div className="flex justify-center items-center gap-2">
         <Image
           onClick={() => dispatch(changeAvatarState())}
-          src={state ? Avatar : AvatarVector}
+          src={
+            state ? "/data/images/avatar.jpg" : "/data/images/avatar_vector.png"
+          }
           width={50}
           height={50}
           alt="avatar"
