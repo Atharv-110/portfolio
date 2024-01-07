@@ -30,12 +30,16 @@ const Hero = () => {
           </div>
         }
         classNames={{
-          content: ["py-2 px-4 rounded-lg"],
+          content: ["bg-theme-white py-2 px-4 rounded-lg"],
         }}
       >
         <div className="w-fit flex items-center gap-3">
           <Image
-            src={state ? "/data/images/avatar.jpg" : "/data/images/avatar_vector.png"}
+            src={
+              state
+                ? "/data/images/avatar.jpg"
+                : "/data/images/avatar_vector.png"
+            }
             width={150}
             height={150}
             alt="avatar image"
@@ -49,14 +53,14 @@ const Hero = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{
                 duration: 0.2,
-                delay: 0.1,
+                delay: 0.2,
                 ease: [0.25, 0.5, 0.75, 1],
               }}
             >
-              <p className="py-2 px-4 flex items-center justify-start tracking-normal border bg-white text-sm font-medium rounded-lg shadow-md">
+              <p className="py-2 px-4 flex items-center justify-start tracking-normal border bg-theme-white text-sm font-medium rounded-lg shadow-md">
                 Redux Magic&nbsp;
                 <Image
-                  src="https://skillicons.dev/icons?i=redux&theme=dark"
+                  src="https://skillicons.dev/icons?i=redux"
                   width={20}
                   height={20}
                   alt="redux logo"

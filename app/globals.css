@@ -6,7 +6,7 @@
 
 /* Common Classes */
 * {
-  @apply font-ubuntu tracking-wide text-theme-black;
+  @apply font-roboto tracking-wide text-theme-black;
 }
 
 .container {
@@ -37,7 +37,7 @@
 }
 
 .dropdown_menu {
-  @apply absolute right-0 top-full shadow-sm mt-4 w-full p-5 rounded-xl bg-theme-white border min-w-[160px] flex flex-col gap-2 justify-end items-end;
+  @apply absolute right-0 top-full shadow-sm mt-4 w-full p-5 rounded-xl bg-theme-white border min-w-[180px] flex flex-col gap-2 justify-end items-end;
 }
 
 .dropdown_link {

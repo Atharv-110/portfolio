@@ -47,7 +47,7 @@ const ProjectCard = (props) => {
         </div>
         <div className="w-[calc(100%-50px)] md:w-[calc(100%-70px)]">
           <div className="flex md:gap-2 items-baseline mb-1">
-            <h3 className="text-xl font-semibold">{name}</h3>
+            <h3 className="text-lg md:text-xl font-semibold">{name}</h3>
             <p className="hidden md:block text-sm">[{duration}]</p>
           </div>
           <p className="text-xs md:text-sm tracking-normal">{description}</p>

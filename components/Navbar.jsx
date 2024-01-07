@@ -52,11 +52,6 @@ const Navbar = () => {
                     : "rotate-0 mb-2"
                 } `}
               ></div>
-              {/* <div
-                className={`w-[30px] h-[1px] transition ease-in duration-150 bg-black ${
-                  showNav ? "hidden mb-0" : "mb-1"
-                } `}
-              ></div> */}
               <div
                 className={`w-[30px] h-[1px] transition ease-in duration-150 bg-theme-black  ${
                   showNav ? "-rotate-45 mb-0 -translate-y-[3px]" : "rotate-0"

@@ -77,7 +77,7 @@ const ContactSection = ({ serviceId, templateId, publicApiKey }) => {
               label: "font-medium",
 
               inputWrapper: [
-                "shadow-none border-3 group-data-[focus=true]:border-theme-yellow",
+                "shadow-none border-3 group-data-[focus=true]:border-theme-green",
               ],
             }}
           />
