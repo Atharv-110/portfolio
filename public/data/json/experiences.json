@@ -43,7 +43,7 @@
             "favorite": true
         },
         {
-            "id": 4,
+            "id": 3,
             "companyName": "Webalar (OPC) Pvt. Ltd.",
             "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/webalar_logo.png?updatedAt=1704136662375",
             "designation": "Web Developer Intern",
@@ -58,7 +58,7 @@
                 "https://skillicons.dev/icons?i=js",
                 "https://skillicons.dev/icons?i=bootstrap"
             ],
-            "favorite": true
+            "favorite": false
         }
     ]
 }
