@@ -75,7 +75,7 @@ const ExperienceCard = (props) => {
                   width={100}
                   height={100}
                   alt="skills"
-                  className="w-[30px] md:w-[35px]"
+                  className="w-[25px]"
                 />
               ))}
             </div>

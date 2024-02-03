@@ -33,7 +33,7 @@ const Hero = () => {
           content: ["bg-theme-white py-2 px-4 rounded-lg"],
         }}
       >
-        <div className="w-fit flex items-center gap-3">
+        <div className="overflow-hidden w-fit flex items-center gap-3">
           <Image
             src={
               state
@@ -53,7 +53,7 @@ const Hero = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{
                 duration: 0.2,
-                delay: 0.2,
+                delay: 0.1,
                 ease: [0.25, 0.5, 0.75, 1],
               }}
             >

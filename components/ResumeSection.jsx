@@ -8,7 +8,7 @@ const ResumeSection = (props) => {
       <div className="flex items-center justify-between mb-4">
         <Heading text="Resume" />
         <SectionBtn
-          link="/data/resume/Resume_Atharv_Vani_Jan24.pdf"
+          link="/data/resume/Resume_Atharv_Vani_Feb24.pdf"
           text="download"
           target="_blank"
           download="atharv_vani_resume.pdf"
