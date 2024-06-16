@@ -50,7 +50,7 @@ const ProjectCard = (props) => {
             <h3 className="text-lg md:text-xl font-semibold">{name}</h3>
             <p className="hidden md:block text-sm">[{duration}]</p>
           </div>
-          <p className="text-xs md:text-sm tracking-normal">{description}</p>
+          <p className="text-xs md:text-sm tracking-normal line-clamp-2">{description}</p>
         </div>
       </div>
     </>
