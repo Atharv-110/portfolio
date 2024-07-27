@@ -6,7 +6,7 @@
       "name": "Leetburns",
       "banner": "https://ik.imagekit.io/pmlrcdwer/portfolio/leetburns_website_banner.png?updatedAt=1722109989098",
       "icon": "https://ik.imagekit.io/pmlrcdwer/portfolio/leetburns_icon.png?updatedAt=1722110427889",
-      "duration": "Jul 2023 - Dec 2023",
+      "duration": "Jul 2024",
       "description": "A full-stack retro designed leetcode roasting web application, takes leetcode username as input",
       "features": [
         "Submit your LeetCode profile and receive instant reponse on your leetcode stats",
@@ -14,7 +14,7 @@
         "Utilizes UUIDs for a secure and personalized experience.",
         "Incorporating modern UI components for a smooth and engaging user experience."
       ],
-      "techStack": "https://skillicons.dev/icons?i=react,ts,express,node,tailwind",
+      "techStack": "https://skillicons.dev/icons?i=react,ts,express,nodejs,tailwind",
       "deployment": "https://leetburns.vercel.app/",
       "repository": "https://github.com/Atharv-110/leetburns"
     },
