@@ -4,9 +4,9 @@
       "id": 1,
       "companyName": "Intellicus Technologies (Impetus Groups)",
       "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/intellicus_logo.png?updatedAt=1719002136791",
-      "designation": "Trainee",
+      "designation": "Associate Software Engineer",
       "location": "Indore",
-      "startDate": "May 2024",
+      "startDate": "Jul 2024",
       "endDate": "Present",
       "companyLink": "https://www.intellicus.com",
       "description": "",
@@ -20,6 +20,24 @@
     },
     {
       "id": 2,
+      "companyName": "Intellicus Technologies (Impetus Groups)",
+      "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/intellicus_logo.png?updatedAt=1719002136791",
+      "designation": "Trainee",
+      "location": "Indore",
+      "startDate": "May 2024",
+      "endDate": "Jul 2024",
+      "companyLink": "https://www.intellicus.com",
+      "description": "",
+      "skills": [
+        "https://skillicons.dev/icons?i=java",
+        "https://skillicons.dev/icons?i=angular",
+        "https://skillicons.dev/icons?i=ts",
+        "https://skillicons.dev/icons?i=js"
+      ],
+      "favorite": false
+    },
+    {
+      "id": 3,
       "companyName": "Flipr Innovation Labs Pvt. Ltd.",
       "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/flipr_logo.png?updatedAt=1707112245748",
       "designation": "Software Development Intern",
@@ -40,7 +58,7 @@
       "favorite": true
     },
     {
-      "id": 3,
+      "id": 4,
       "companyName": "Bookzy Edufy Pvt. Ltd.",
       "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/bookzy_logo.png?updatedAt=1704136662377",
       "designation": "Front End Developer Intern",
@@ -61,7 +79,7 @@
       "favorite": true
     },
     {
-      "id": 4,
+      "id": 5,
       "companyName": "Webalar (OPC) Pvt. Ltd.",
       "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/webalar_logo.png?updatedAt=1704136662375",
       "designation": "Junior Developer Intern",
@@ -81,7 +99,7 @@
       "favorite": false
     },
     {
-      "id": 5,
+      "id": 6,
       "companyName": "Webalar (OPC) Pvt. Ltd.",
       "companyLogo": "https://ik.imagekit.io/pmlrcdwer/portfolio/webalar_logo.png?updatedAt=1704136662375",
       "designation": "Web Developer Intern",
