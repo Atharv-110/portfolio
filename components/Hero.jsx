@@ -41,6 +41,7 @@ const Hero = () => {
             alt="avatar image"
             className={state ? "avatar rounded-3xl" : "hidden"}
             unoptimized
+            priority
           />
           <Image
             src={"/data/images/avatar_vector.png"}

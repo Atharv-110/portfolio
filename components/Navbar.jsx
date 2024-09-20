@@ -40,6 +40,7 @@ const Navbar = () => {
           alt="avatar"
           className={state ? "avatar rounded-xl cursor-pointer" : "hidden"}
           unoptimized
+          priority
         />
         <Image
           onClick={() => dispatch(changeAvatarState())}
