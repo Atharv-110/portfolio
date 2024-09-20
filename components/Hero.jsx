@@ -35,15 +35,19 @@ const Hero = () => {
       >
         <div className="overflow-hidden w-fit flex items-center gap-3">
           <Image
-            src={
-              state
-                ? "/data/images/avatar.jpg"
-                : "/data/images/avatar_vector.png"
-            }
+            src={"/data/images/avatar.jpg"}
             width={150}
             height={150}
             alt="avatar image"
-            className="avatar rounded-3xl"
+            className={state ? "avatar rounded-3xl" : "hidden"}
+            unoptimized
+          />
+          <Image
+            src={"/data/images/avatar_vector.png"}
+            width={150}
+            height={150}
+            alt="avatar image"
+            className={state ? "hidden" : "avatar rounded-3xl"}
             unoptimized
             priority
           />
@@ -52,7 +56,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
-                duration: 0.2,
+                duration: 0.25,
                 delay: 0.1,
                 ease: [0.25, 0.5, 0.75, 1],
               }}

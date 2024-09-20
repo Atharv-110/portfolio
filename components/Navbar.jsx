@@ -4,10 +4,13 @@ import { useDispatch, useSelector } from "react-redux";
 import Image from "next/image";
 import Link from "next/link";
 import { changeAvatarState } from "@/redux/AvatarChange";
+import { usePathname, useRouter } from "next/navigation";
 
 const Navbar = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
   const dispatch = useDispatch();
+  const router = useRouter();
+  const pathname = usePathname();
 
   const [showNav, setShowNav] = useState(false);
   const [toggleDropdownMenu, setToggleDropdownMenu] = useState(false);
@@ -17,22 +20,40 @@ const Navbar = () => {
     setToggleDropdownMenu(!toggleDropdownMenu);
   };
 
+  const handleHomePageNavigation = () => {
+    if (pathname !== "/") {
+      router.push("/");
+    }
+  };
+
   return (
     <nav className="navbar">
-      <div className="flex justify-center items-center gap-2">
+      <div
+        className="flex justify-center items-center gap-2"
+        onClick={handleHomePageNavigation}
+      >
         <Image
           onClick={() => dispatch(changeAvatarState())}
-          src={
-            state ? "/data/images/avatar.jpg" : "/data/images/avatar_vector.png"
-          }
+          src={"/data/images/avatar.jpg"}
           width={50}
           height={50}
           alt="avatar"
-          className="avatar rounded-xl cursor-pointer"
+          className={state ? "avatar rounded-xl cursor-pointer" : "hidden"}
+          unoptimized
+        />
+        <Image
+          onClick={() => dispatch(changeAvatarState())}
+          src={"/data/images/avatar_vector.png"}
+          width={50}
+          height={50}
+          alt="avatar"
+          className={state ? "hidden" : "avatar rounded-xl cursor-pointer"}
           unoptimized
           priority
         />
-        <h1 className="font-semibold text-lg tracking-wide">atharv</h1>
+        <h1 className="font-semibold text-lg tracking-wide cursor-pointer">
+          atharv
+        </h1>
       </div>
       <div className="">
         <div className="sm:hidden flex relative">
