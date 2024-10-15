@@ -66,8 +66,7 @@ const ExperienceCard = (props) => {
             <p className="text-xs tracking-normal">{description}</p>
           ) : null}
           {skills ? (
-            <div className="flex justify-start items-center gap-1 mt-2">
-              <p className="hidden md:block text-xs font-medium">hands on: </p>
+            <div className="flex justify-start items-center gap-[5px] mt-2">
               {skills.map((item, idx) => (
                 <Image
                   key={idx}

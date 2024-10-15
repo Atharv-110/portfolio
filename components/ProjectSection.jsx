@@ -9,7 +9,6 @@ const ProjectSection = (props) => {
       <SubHeading text="Explore my diverse projects showcasing various technologies, built to validate my understanding of the technologies I've learned." />
 
       {data.map((item) => (
-        // console.log(item.name);
         <ProjectCard key={item.id} item={item} />
       ))}
     </section>

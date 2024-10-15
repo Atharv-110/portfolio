@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import { Tooltip } from "@nextui-org/react";
 
 import { FaGithub, FaLinkedin, FaTwitter } from "./IconsExport";
+import { ENUM } from "@/enum/enum";
 
 const Hero = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
@@ -103,7 +104,7 @@ const Hero = () => {
       </p>
       <div className="flex items-baseline justify-start gap-2">
         <p className="font-medium">Hire me.</p>
-        <SectionBtn link="/resume" text="Resume" />
+        <SectionBtn link={ENUM.RESUME} text="Resume" />
       </div>
       <SkillSet />
     </section>

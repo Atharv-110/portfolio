@@ -5,6 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { changeAvatarState } from "@/redux/AvatarChange";
 import { usePathname, useRouter } from "next/navigation";
+import { ENUM } from "@/enum/enum";
+
+const NavData = [
+  { route: ENUM.HOME, name: "Home" },
+  { route: ENUM.EXPERIENCE, name: "Experiences" },
+  { route: ENUM.PROJECTS, name: "Projects" },
+  { route: ENUM.CONTACT, name: "Contact" },
+];
 
 const Navbar = () => {
   const state = useSelector((state) => state.changeAvatar.flag);
@@ -21,8 +29,8 @@ const Navbar = () => {
   };
 
   const handleHomePageNavigation = () => {
-    if (pathname !== "/") {
-      router.push("/");
+    if (pathname !== ENUM.HOME) {
+      router.push(ENUM.HOME);
     }
   };
 
@@ -53,7 +61,7 @@ const Navbar = () => {
           priority
         />
         <h1 className="font-semibold text-lg tracking-wide cursor-pointer">
-          atharv
+          Atharv
         </h1>
       </div>
       <div className="">
@@ -83,51 +91,26 @@ const Navbar = () => {
 
             {toggleDropdownMenu && (
               <div className="ease-in-out duration-300 dropdown_menu">
-                <Link
-                  href="/"
-                  className="dropdown_link"
-                  onClick={handleDropdownMenu}
-                >
-                  home
-                </Link>
-                <Link
-                  href="/experience"
-                  className="dropdown_link"
-                  onClick={handleDropdownMenu}
-                >
-                  experience
-                </Link>
-                <Link
-                  href="/projects"
-                  className="dropdown_link"
-                  onClick={handleDropdownMenu}
-                >
-                  projects
-                </Link>
-                <Link
-                  href="/contact"
-                  className="dropdown_link"
-                  onClick={handleDropdownMenu}
-                >
-                  contact
-                </Link>
+                {NavData?.map((item) => (
+                  <Link
+                    key={item.route}
+                    href={item.route}
+                    className="dropdown_link"
+                    onClick={handleDropdownMenu}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
               </div>
             )}
           </div>
         </div>
         <ul className="hidden sm:flex gap-5 font-medium ">
-          <Link href={"/"} className="navbar_link">
-            <li>home</li>
-          </Link>
-          <Link href={"/experience"} className="navbar_link">
-            <li>experience</li>
-          </Link>
-          <Link href={"/projects"} className="navbar_link">
-            <li>projects</li>
-          </Link>
-          <Link href={"/contact"} className="navbar_link">
-            <li>contact</li>
-          </Link>
+          {NavData?.map((item) => (
+            <Link key={item.route} href={item.route} className="navbar_link">
+              <li>{item.name}</li>
+            </Link>
+          ))}
         </ul>
       </div>
     </nav>

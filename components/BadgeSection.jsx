@@ -6,7 +6,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css/bundle";
 
 const BadgeSection = (props) => {
-  const data = props.data;
+  const data = props?.data;
 
   return (
     <section>
@@ -39,7 +39,7 @@ const BadgeSection = (props) => {
         }}
         modules={[Autoplay]}
       >
-        {data.map((item) => (
+        {data?.map((item) => (
           <SwiperSlide key={item.id}>
             <BadgeCard item={item} />
           </SwiperSlide>

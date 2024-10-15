@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <ReduxProvider>
       <html lang="en" className="bg-theme-white">
-        <body className="">
+        <body>
           <Toaster position="top-center" />
           <NextUI>
             <Navbar />
